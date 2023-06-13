@@ -1,0 +1,6 @@
+@import url(./__list/todo__list.css);
+
+.todo {
+    display: flex;
+    flex-direction: column;
+}

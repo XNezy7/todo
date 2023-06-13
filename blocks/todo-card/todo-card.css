@@ -1,0 +1,15 @@
+@import url(./__button/todo-card__button.css);
+@import url(./__button/_type/todo-card__button_type_check.css);
+@import url(./__button/_type/todo-card__button_type_delete.css);
+@import url(./__controls/todo-card__controls.css);
+@import url(./__title/todo-card__title.css);
+
+.todo-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 43px;
+    border: 1px solid #6F6F6F;
+    box-sizing: border-box;
+    border-radius: 5px;
+}

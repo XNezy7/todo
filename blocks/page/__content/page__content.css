@@ -1,0 +1,10 @@
+.page__content {
+  font-family: 'Inter', Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  padding: 0 12px;
+  color: #fff;
+  margin: 0 auto;
+}

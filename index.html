@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="page">
+<div class="page__content">
+  <header class="header page__section">
+    <h1 class="header__title">Todo List</h1>
+  </header>
+  <main class="content">
+    <section class="todo">
+      <form class="form">
+        <input class="form__input" placeholder="Следующее дело..."/>
+        <button class="form__button" type="submit">Добавить</button>
+      </form>
+      <ul class="todo__list">
+        
+      </ul>
+    </section>
+  </main>
+  <footer class="footer page__section">
+    <p class="footer__copyright">
+      © Yandex.Praktikum 2022
+    </p>
+  </footer>
+
+<script src="./scripts/index.js" defer></script>
+
+<template id="todo-template">
+  <li class="todo-card">
+    <h3 class="todo-card__title"></h3>
+    <div class="todo-card__controls">
+      <button class="todo-card__button todo-card__button_type_check"></button>
+      <button class="todo-card__button todo-card__button_type_delete"></button>
+    </div>
+  </li>
+</template>
+</body>
+</html>
